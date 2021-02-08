@@ -37,16 +37,19 @@ export default class About extends Component {
                   Hobbies/Passions
                </h2>
                <p>
-                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Technology.png" alt="Technology"/> Gaming
+                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Reading.png" alt="Reading"/> Reading
                </p>
                <p>
-                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Technology.png" alt="Technology"/> Soccer
+                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Gaming.png" alt="Gaming"/> Gaming
                </p>
                <p>
-                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Technology.png" alt="Technology"/> Rugby
+                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Soccer.png" alt="Soccer"/> Soccer
                </p>
                <p>
-                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Technology.png" alt="Technology"/> Drama
+                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Rugby.png" alt="Rugby"/> Rugby
+               </p>
+               <p>
+                  <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Drama.png" alt="Drama"/> Drama
                </p>
                <p>
                   <img style={{height: 40 + "px", width: 40 + "px",}} src="images/Technology.png" alt="Technology"/>Technology
