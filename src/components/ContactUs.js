@@ -11,7 +11,9 @@ import React, { Component } from 'react';
             </div>
 
             <div className="ten columns">
-             {/*<p className="lead">{data?.message}</p>*/}
+             <p className="lead">Name</p>
+             <p className="lead">Email</p>
+             <p className="lead">Message</p>
             </div>
          </div>
 
@@ -19,7 +21,6 @@ import React, { Component } from 'react';
             <div className="eight columns">
 
               <form
-                className={this.props.shake}
                 action="https://formspree.io/xpzyjbno"
                 method="POST"
               >
