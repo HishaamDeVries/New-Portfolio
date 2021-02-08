@@ -3,7 +3,6 @@ import ReactTypingEffect from 'react-typing-effect';
 
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       

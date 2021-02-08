@@ -37,21 +37,75 @@ export default class About extends Component {
                            Hobbies/Passions
                         </h2>
                         <p>
+                        <img
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src="images/Reading.png"
+                alt="Reading"
+              />
                      Reading
                         </p>
                         <p>
+                        <img
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src="images/Gaming.png"
+                alt="Gaming"
+              />  
                      Gaming
                         </p>
                         <p>
+                        <img
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src="images/Soccer.png"
+                alt="Soccer"
+              /> 
                      Soccer
                         </p>
                         <p>
+                        <img
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src="images/Rugby.png"
+                alt="Rugby"
+              />
                      Rugby
                         </p>
                         <p>
+                        <img
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src="images/Drama.png"
+                alt="Drama"
+              />
                      Drama
                         </p>
                         <p>
+                        <img
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src="images/Technology.png"
+                alt="Technology"
+              />
                      Technology
                         </p>
                      </div>  

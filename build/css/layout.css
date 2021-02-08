@@ -206,8 +206,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 190px;
-   height: 190px;
+   width: 300px;
+   height: 300px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -508,8 +508,8 @@ a:hover {
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
-   height: 30px;
-   width: 30px;
+   height: 40px;
+   width: 40px;
    font-size: 18px;
    line-height: 30px;
    text-align: center;
