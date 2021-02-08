@@ -9,13 +9,7 @@ import React, { Component } from 'react';
             <div className="two columns header-col">
                <h1><span>Contact Me</span></h1>
             </div>
-
-            <div className="ten columns">
-             <p className="lead">Name</p>
-             <p className="lead">Email</p>
-             <p className="lead">Message</p>
-            </div>
-         </div>
+          </div>
 
          <div className="row">
             <div className="eight columns">
