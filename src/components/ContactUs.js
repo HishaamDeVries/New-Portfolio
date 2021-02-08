@@ -34,7 +34,7 @@ import React, { Component } from 'react';
                         className="form-control form-control-lg"
                         id="name"
                         placeholder="Name"
-                        style={{ background: "#ccc" }}
+                        style={{ background: "#ccc",  borderRadius: "50%", width: "50%" }}
                         required
                       />
                     </div>
@@ -51,7 +51,7 @@ import React, { Component } from 'react';
                         className="form-control form-control-lg"
                         id="exampleFormControlInput1"
                         placeholder="Your email"
-                        style={{ background: "#ccc" }}
+                        style={{ background: "#ccc", borderRadius: "50%", width: "50%"  }}
                         required
                       />
                     </div>
@@ -59,7 +59,7 @@ import React, { Component } from 'react';
                 </div>
                 <div className="form-group hiddenRight">
                   <div className="row">
-                    <div className="col-12 col-sm-12 col-md-12 mx-auto">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
                       <label htmlFor="message">Message</label>
                       <textarea
                         name="message"
@@ -68,14 +68,14 @@ import React, { Component } from 'react';
                         rows="3"
                         cols="50"
                         placeholder="Write your message..."
-                        style={{ background: "#ccc" }}
+                        style={{ background: "#ccc", borderRadius: "50%", width: "50%" }}
                         required
                       />
                     </div>
                   </div>
                 </div>
-                <div className="row text-md-right text-sm-center">
-                  <div className="col-12 col-sm-12 col-md-12 mx-auto">
+                <div className="row text-md-right text-sm-right">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
                     <button type="submit" className="btn btn-primary mb-2 hidden">
                       Submit
                     </button>
