@@ -5,21 +5,14 @@ import React, { Component } from 'react';
 
     return (
       <section id="contact">
-
          <div className="row section-head">
-
             <div className="two columns header-col">
-
                <h1><span>Contact Me</span></h1>
-
             </div>
 
             <div className="ten columns">
-
-                  {/*<p className="lead">{data?.message}</p>*/}
-
+             {/*<p className="lead">{data?.message}</p>*/}
             </div>
-
          </div>
 
          <div className="row">
@@ -101,7 +94,8 @@ import React, { Component } from 'react';
 		         </div>
             </aside>
       </div>
-   </section>
+    </div>
+  </section>
 );
 }
 }
