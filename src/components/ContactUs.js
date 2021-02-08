@@ -25,38 +25,64 @@ import React, { Component } from 'react';
          <div className="row">
             <div className="eight columns">
 
-               <form action="https://formspree.io/xpzyjbno" method="POST" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input  type="text" defaultValue="" size="35" id="contactName" name="contactName" required/>
+              <form
+                className={this.props.shake}
+                action="https://formspree.io/xpzyjbno"
+                method="POST"
+              >
+                <div className="form-group">
+                  <div className="row">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                      <input
+                        type="text"
+                        name="name"
+                        className="form-control form-control-lg"
+                        id="name"
+                        placeholder="Name"
+                        style={{ background: "#ccc" }}
+                        required
+                      />
+                    </div>
                   </div>
-
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input  type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" required/>
+                </div>
+                <div className="form-group hidden">
+                  <div className="row">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                      <input
+                        type="email"
+                        name="_replyto"
+                        className="form-control form-control-lg"
+                        id="exampleFormControlInput1"
+                        placeholder="Your email"
+                        style={{ background: "#ccc" }}
+                        required
+                      />
+                    </div>
                   </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea  cols="50" rows="15" id="contactMessage" name="contactMessage" required></textarea>
+                </div>
+                <div className="form-group hiddenRight">
+                  <div className="row">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                      <textarea
+                        name="message"
+                        className="form-control form-control-lg"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                        placeholder="Write your message..."
+                        style={{ background: "#ccc" }}
+                        required
+                      />
+                    </div>
                   </div>
-
-                  <div>
-                     <button type='submit'  className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
+                </div>
+                <div className="row text-md-right text-sm-center">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <button type="submit" className="btn btn-primary mb-2 hidden">
+                      Submit
+                    </button>
                   </div>
-					</fieldset>
-				   </form>
-
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>
+                </div>
+              </form>
 
 
             <aside className="four columns footer-widgets">
