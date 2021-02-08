@@ -19,7 +19,6 @@ import React, { Component } from 'react';
                 method="POST"
               >
                 <div className="form-group">
-                  <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 mx-auto">
                       <label htmlFor="name">Name</label>
                       <input
@@ -34,9 +33,7 @@ import React, { Component } from 'react';
                       />
                     </div>
                   </div>
-                </div>
                 <div className="form-group hidden">
-                  <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 mx-auto">
                       <label htmlFor="_replyto">Email</label>
                       <input
@@ -51,9 +48,7 @@ import React, { Component } from 'react';
                       />
                     </div>
                   </div>
-                </div>
                 <div className="form-group hiddenRight">
-                  <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 mx-auto">
                       <label htmlFor="message">Message</label>
                       <textarea
@@ -68,7 +63,6 @@ import React, { Component } from 'react';
                       />
                     </div>
                   </div>
-                </div>
                 <div className="row text-md-right text-sm-right">
                   <div className="col-12 col-sm-12 col-md-6 mx-auto">
                     <button type="submit" className="btn btn-primary mb-2 hidden">
@@ -79,8 +73,8 @@ import React, { Component } from 'react';
               </form>
 
 
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
+          <aside className="four columns footer-widgets">
+            <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
@@ -89,11 +83,7 @@ import React, { Component } from 'react';
 						   <span>081 595 7849</span>
 					   </p>
 				   </div>
-
-               <div className="widget widget_tweets">
-
-		         </div>
-            </aside>
+          </aside>
       </div>
     </div>
   </section>
