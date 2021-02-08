@@ -7,7 +7,7 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -71,6 +71,8 @@ export default class Porfolio extends Component {
                    </div>
               </div>
             </div>
+            </div>
+            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf ">
 
             <div className="columns portfolio-item">
               <div className="item-wrap">
@@ -108,6 +110,27 @@ export default class Porfolio extends Component {
                         rel="noopener noreferrer"
                       >
                       Download App
+                      </a>
+                      </p>
+                    </div>
+                   </div>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap">
+                  <img src="images/Portfolio.png" className="item-img" alt="Portfolio"/>
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>First Portfolio</h5>
+                      <p>First portfolio I made using React on Github Pages</p>
+                      <p> 
+                      <a
+                        href="https://hishaamdevries.github.io/portfolio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                      View Demo
                       </a>
                       </p>
                     </div>
