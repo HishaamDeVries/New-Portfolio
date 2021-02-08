@@ -534,11 +534,11 @@ a:hover {
 }
 .portfolio-item .portfolio-item-meta { padding: 14px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 24px 'opensans-bold', sans-serif;
+   font: 32px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 22px 'opensans-light', sans-serif;
+   font: 28px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
