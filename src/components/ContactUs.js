@@ -26,9 +26,11 @@ import React, { Component } from 'react';
                 <div className="form-group">
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                      <label htmlFor="name">Name</label>
                       <input
                         type="text"
                         name="name"
+                        size="35"
                         className="form-control form-control-lg"
                         id="name"
                         placeholder="Name"
@@ -41,9 +43,11 @@ import React, { Component } from 'react';
                 <div className="form-group hidden">
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                      <label htmlFor="_replyto">Email</label>
                       <input
                         type="email"
                         name="_replyto"
+                        size="35"
                         className="form-control form-control-lg"
                         id="exampleFormControlInput1"
                         placeholder="Your email"
@@ -55,12 +59,14 @@ import React, { Component } from 'react';
                 </div>
                 <div className="form-group hiddenRight">
                   <div className="row">
-                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <div className="col-12 col-sm-12 col-md-12 mx-auto">
+                      <label htmlFor="message">Message</label>
                       <textarea
                         name="message"
                         className="form-control form-control-lg"
                         id="exampleFormControlTextarea1"
                         rows="3"
+                        cols="50"
                         placeholder="Write your message..."
                         style={{ background: "#ccc" }}
                         required
@@ -69,7 +75,7 @@ import React, { Component } from 'react';
                   </div>
                 </div>
                 <div className="row text-md-right text-sm-center">
-                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                  <div className="col-12 col-sm-12 col-md-12 mx-auto">
                     <button type="submit" className="btn btn-primary mb-2 hidden">
                       Submit
                     </button>
