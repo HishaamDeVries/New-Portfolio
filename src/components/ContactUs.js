@@ -42,7 +42,7 @@ import React, { Component } from 'react';
                       className="form-control form-control-lg"
                       id="exampleFormControlInput1"
                       placeholder="Your email"
-                      style={{ background: "#ccc"}, textColor: "Black"}
+                      style={{ background: "#ccc", textColor: "Black"}}
                       required
                     />
                   </div>
