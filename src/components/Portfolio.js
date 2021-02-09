@@ -16,7 +16,7 @@ export default class Porfolio extends Component {
                     <div className="portfolio-item-meta">
                       <h5>GitHub Finder</h5>
                       <p>Web App that is made to find github user profiles and some of the basic info therein.</p>
-                        <button>
+                        <p>
                       <a
                         href="https://github-finder-hishaam-version.netlify.app/"
                         target="_blank"
@@ -24,7 +24,7 @@ export default class Porfolio extends Component {
                       >
                       View Demo
                       </a>
-                      </button>
+                      </p>
 
                     </div>
                    </div>
