@@ -25,7 +25,7 @@ export default class Header extends Component {
               className="typingeffect"
               text={[
                 "Hello, I'm Hishaam De Vries.",
-                "I'm a Junior Web Developer.",
+                "I'm a Front-end Web Developer.",
               ]}
               speed={80}
               eraseSpeed={80}
