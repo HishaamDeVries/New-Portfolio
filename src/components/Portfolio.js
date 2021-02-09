@@ -20,7 +20,7 @@ export default class Porfolio extends Component {
                       <a
                         href="https://github-finder-hishaam-version.netlify.app/"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        
                       >
                       View Demo
                       </a>
