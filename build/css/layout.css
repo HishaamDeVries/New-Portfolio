@@ -448,9 +448,10 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-a:hover {
+/*a:hover {
    color: lightgreen;
-}
+}*/
+
 
 #portfolio {
    background: #ebeeee;
