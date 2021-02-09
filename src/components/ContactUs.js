@@ -26,7 +26,7 @@ import React, { Component } from 'react';
                       className="form-control form-control-lg"
                       id="name"
                       placeholder="Name"
-                      style={{ background: "#ccc"}}
+                      style={{ background: "#ccc", textColor: "Black"}}
                       required
                     />
                     </div>
@@ -42,7 +42,7 @@ import React, { Component } from 'react';
                       className="form-control form-control-lg"
                       id="exampleFormControlInput1"
                       placeholder="Your email"
-                      style={{ background: "#ccc"}}
+                      style={{ background: "#ccc"}, textColor: "Black"}
                       required
                     />
                   </div>
@@ -58,7 +58,7 @@ import React, { Component } from 'react';
                         rows="3"
                         cols="50"
                         placeholder="Write your message..."
-                        style={{ background: "#ccc"}}
+                        style={{ background: "#ccc", textColor: "Black" }}
                         required
                       />
                     </div>
