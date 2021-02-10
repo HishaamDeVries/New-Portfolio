@@ -69,7 +69,7 @@ export default class Porfolio extends Component {
                      target="_blank"
                      rel="noopener noreferrer"
                   >
-                    <button class="button button1">Repo</button>
+                    <button class="button button1">Go To Repo</button>
                   </a>
                 </section>
               </div>
