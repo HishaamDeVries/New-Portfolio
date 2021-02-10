@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 export default class Porfolio extends Component {
   render() {
 
@@ -59,20 +59,21 @@ export default class Porfolio extends Component {
                     <div className="portfolio-item-meta">
                       <h5>IT logger</h5>
                       <p>Web App that is used to create logs for IT problems and Solutions in the workplace</p>
-                      <p> 
-                      <a
-                        href="https://github.com/HishaamDeVries/it-logger"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                      Go To Repo
-                      </a>
-                      </p>
                     </div>
                    </div>
               </div>
+              <button> 
+                <a
+                  href="https://github.com/HishaamDeVries/it-logger"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go To Repo
+                </a>
+              </button>
             </div>
             </div>
+
             <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf ">
 
             <div className="columns portfolio-item">
