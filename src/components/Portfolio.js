@@ -18,6 +18,7 @@ export default class Porfolio extends Component {
                       <p>Web App that is made to find github user profiles and some of the basic info therein.</p>
                         <p>
                       <a
+                        className="external"
                         href="https://github-finder-hishaam-version.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
