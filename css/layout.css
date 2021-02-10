@@ -449,6 +449,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio .livedemo{
+   align-items: center;
    padding-top: 10px;
    display: inline-block;
 }
