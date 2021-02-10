@@ -327,14 +327,14 @@ ul#nav li.current a { color: #F06000; }
 .javascript {
    background-color: #f0db4f;
   	width: 75%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 .react {
    background-color: #61dbfb;
   	width: 70%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
 }
 .wordpress {
    background-color: #00749c;
@@ -351,27 +351,27 @@ ul#nav li.current a { color: #F06000; }
 .html {
    background-color: #f06529;
   	width: 90%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: html 2s ease;
+  	-webkit-animation: html 2s ease;
 }
 .sass {
    background-color: #cc6699;
   	width: 65%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: sass 2s ease;
+  	-webkit-animation: sass 2s ease;
 }
 
 .python {
    background-color: #ffe873;
    width: 60%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
 }
 .mysql {
    background-color: #f29111;
    width: 60%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
 }
 
 @-moz-keyframes javascript {
@@ -451,19 +451,15 @@ ul#nav li.current a { color: #F06000; }
 #portfolio .livedemo{
    padding-top: 10px;
    display: inline-block;
-
 }
 
 #portfolio .button1 {
-width: 300px;
-height: 50px;
-font-size: small;
-border-left: 5px solid rgb(235,238,238);
-border-right: 5px solid rgb(235,238,238);
-
-
+   width: 200%;
+   height: 50px;
+   font-size: small;
+   border-left: 5px solid rgb(235,238,238);
+   border-right: 5px solid rgb(235,238,238);
 }
-
 
 #portfolio {
    background: #ebeeee;
