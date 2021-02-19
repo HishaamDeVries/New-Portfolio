@@ -148,10 +148,10 @@ export default class Porfolio extends Component {
 
           </div>
 
-          <div id="portfolio-wrapper" className="frow s-frow cf ">
+          <div id="portfolio-wrapper" className="bgrid s-bgrid cf">
           <div className="columns portfolio-item">
               <div className="item-wrap">
-                <img src="images/bnr-challenge.png" className="item-img" alt="Lottery"/>
+                <img src="images/bnr-challenge.png" className="item-img" alt="BNRY Challenge"/>
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>BNRY Challenge</h5>
@@ -165,7 +165,7 @@ export default class Porfolio extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                   >
-                    <button class="button button1">Download App</button>
+                    <button class="button button1">View Demo</button>
                   </a>
                 </section>
               </div>
