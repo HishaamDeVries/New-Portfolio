@@ -148,7 +148,7 @@ export default class Porfolio extends Component {
 
           </div>
 
-          <div>
+          <div id="portfolio-wrapper" className="frow s-frow cf ">
           <div className="columns portfolio-item">
               <div className="item-wrap">
                 <img src="images/bnr-challenge.png" className="item-img" alt="Lottery"/>
