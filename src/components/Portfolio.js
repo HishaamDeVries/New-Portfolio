@@ -151,7 +151,7 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid s-bgrid cf">
           <div className="columns portfolio-item">
               <div className="item-wrap">
-                <img src="images/bnr-challenge.png" className="item-img" alt="BNRY Challenge"/>
+                <img src="images/bnr.png" className="item-img" alt="BNRY Challenge"/>
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>BNRY Challenge</h5>
