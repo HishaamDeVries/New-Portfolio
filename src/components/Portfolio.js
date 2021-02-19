@@ -147,6 +147,31 @@ export default class Porfolio extends Component {
             </div>
 
           </div>
+
+          <div>
+          <div className="columns portfolio-item">
+              <div className="item-wrap">
+                <img src="images/bnr-challenge.png" className="item-img" alt="Lottery"/>
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>BNRY Challenge</h5>
+                    <p>Website challenge for BRNY which displays an image slider with descriptions that is served through node</p>
+                  </div>
+                </div>
+              </div>
+              <div className = "livedemo">
+                <section>
+                  <a  href="https://epic-kilby-0e925b.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    <button class="button button1">Download App</button>
+                  </a>
+                </section>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
   </section>
