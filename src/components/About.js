@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import MyPDF from '../CV/HishaamDeVriesCV.pdf';
 export default class About extends Component {
   render() {
     return (
@@ -20,16 +22,19 @@ export default class About extends Component {
 
                <h2>Where My Passion For The Tech Space Came From</h2>
                <p>
-               I first got my passion in tech when I was four years old. We used
-              to have a computer in the front room of my old home and I used to
-              tinker with it and see how it works. Later in my life while I was
-              in high school we didn’t have IT but we did have CAT and in it
-              sometimes we were given videos from YouTube with people who
-              explain the tech that we were going over. I continue to watch
-              Linus Tech Tips (the channel that stuck out for me) and see them
-              doing these crazy projects and explaining any new tech that they
-              got which really interested me.
+                  I first got my passion in tech when I was four years old. We used
+                  to have a computer in the front room of my old home and I used to
+                  tinker with it and see how it works. Later in my life while I was
+                  in high school we didn’t have IT but we did have CAT and in it
+                  sometimes we were given videos from YouTube with people who
+                  explain the tech that we were going over. I continue to watch
+                  Linus Tech Tips (the channel that stuck out for me) and see them
+                  doing these crazy projects and explaining any new tech that they
+                  got which really interested me.
                </p>
+               <a href={MyPDF} download="HishaamDeVriesCV.pdf"> 
+                  <button class="button button1">Download CV</button> 
+               </a>
             </div>
 
             <div className="15 columns">

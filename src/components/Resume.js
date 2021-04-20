@@ -46,6 +46,23 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
                     <div className="row item">
                        <div className="twelve columns">
+                          <h3>LC Studios (Life Choices Studios)</h3>
+                          <p className="info">
+                          Front-end Web Developer/Intern
+                          <span>&bull;</span> <em className="date">Dec 2020 - Present</em></p>
+                          <p>
+                          Building websites using WordPress in conjunction
+                          with Elementor, Designing websites using Canva, Front-end
+                          development custom CSS
+                          </p>
+                       </div>
+
+                    </div>
+            </div> 
+
+            <div className="nine columns main-col">
+                    <div className="row item">
+                       <div className="twelve columns">
                           <h3>Robbin Island Shakespare</h3>
                           <p className="info">
                           Theatre Actor
